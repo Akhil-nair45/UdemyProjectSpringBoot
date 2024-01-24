@@ -1,0 +1,5 @@
+package com.example.demo.Model.Request;
+
+public class UserRequest {
+
+}

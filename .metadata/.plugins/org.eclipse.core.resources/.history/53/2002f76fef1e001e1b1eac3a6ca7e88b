@@ -1,0 +1,10 @@
+package com.example.demo.Service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.example.demo.Model.Student;
+
+public interface StudentService {
+
+	public Student addSrudent(Student student);
+}

@@ -1,0 +1,30 @@
+package com.example.demo;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+
+interface A {
+	public void show();
+}
+
+class b implements A{
+
+	@Override
+	public void show() {
+		// TODO Auto-generated method stub
+		System.out.println("Hello");
+		
+	}
+	
+}
+@SpringBootApplication
+public class StudentApplication {
+	
+	
+
+	public static void main(String[] args) {
+		SpringApplication.run(StudentApplication.class, args);
+	}
+
+}
